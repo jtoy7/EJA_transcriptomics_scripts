@@ -8,7 +8,7 @@ Working in a bash shell from the directory containing your fastq files
 to remove the Illumina adaptor sequences and low-quality reads.  
  
 
-\#\#Use Trimmomatic to remove low-quality reads  
+## Use Trimmomatic to remove low-quality reads  
  
 
 To run Trimmomatic on one sequence file, run the following bash code:
@@ -33,7 +33,7 @@ done;
 
  
 
-\#\#Run fastqc on both original and trimmo files  
+## Run fastqc on both original and trimmo files  
 Fast QC is a program that provides a simple way to do some quality
 control checks on raw sequence data. It provides a modular set of
 analyses that you can use to give a quick impression of whether you data
@@ -61,7 +61,7 @@ done
 
  
 
-\#\#Download all fastqc files from the server to your computer  
+## Download all fastqc files from the server to your computer  
 Once downloaded, open the .html files to view the results of the fastqc
 analysis.  
  
@@ -96,7 +96,7 @@ the lower adapter contamination, but either setting would probably work
 fine (they both have minimal adapter contamination).  
  
 
-\#\#Make text file with number of reads per sample for all samples
+## Make text file with number of reads per sample for all samples
 
 ``` bash
 for file in *.fastq
@@ -108,7 +108,7 @@ done
 
  
 
-\#\#2015 Experiment Reads
+## 2015 Experiment Reads
 
 Repeat trimming and FastQC process for the reads from the 2015
 experiment using the same parameters. Then combine the trimmed read
