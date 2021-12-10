@@ -1,4 +1,7 @@
- 
+# Black Surfperch Transcriptomics - RNAseq Read QC
+### Jason A. Toy
+### Updated December 10, 2021
+
 
 Working in a bash shell from the directory containing your fastq files
 (i.e. on a server), run the software “Trimmomatic” on the sequence files
