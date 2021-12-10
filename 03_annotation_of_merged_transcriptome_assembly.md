@@ -1,4 +1,6 @@
- 
+# Black Surfperch Transcriptomics - Transcriptome Annotation
+### Jason A. Toy
+### Updated December 10, 2021
 
 ## Installing and running TransDecoder
 
