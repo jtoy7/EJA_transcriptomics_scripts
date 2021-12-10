@@ -1,6 +1,12 @@
- 
+# Black Surfperch Transcriptomics - Assembly of Merged Transcriptome using Tophat/Cufflinks
+### Jason A. Toy
+### Updated 12-10-2021
+## 
 
-\#\#\#Run TopHat for each read file separately First, run **TopHat** on
+
+
+### Run TopHat for each read file separately
+First, run **TopHat** on
 each biological replicate read file separately, so that you get an
 accepted hits.bam file for each replicate:  
  
@@ -139,7 +145,7 @@ Lengths of merged assembly:
 merged.fa = **71933**  
  
 
-\#\#\#\#Evaluate merged assemblies:  
+### Evaluate merged assemblies:  
 Within cuffmerge output directory, create a subdirectory for evaluation
 files:
 
@@ -192,7 +198,7 @@ Output:
 
  
 
-\#\#\#Full length transcript analysis using BLAST+
+### Full length transcript analysis using BLAST+
 
 ``` bash
 #!/bin/bash
@@ -260,7 +266,7 @@ level of alignment coverage
 
  
 
-\#\#\#BUSCO Analysis of Assemblies
+### BUSCO Analysis of Assemblies
 
 ``` bash
 conda activate busco_jt
@@ -297,7 +303,7 @@ BUSCO Output:
 
  
 
-\#\#\#Assess transcriptome using TransRate  
+### Assess transcriptome using TransRate  
  
 
 Run transrate:
