@@ -1,6 +1,10 @@
- 
+# Black Surfperch Transcriptomics - Differential Expression Analysis using RSEM & edgeR
+### Jason A. Toy
+### Updated December 10, 2021
+##
 
-\#\#Transcript Quantification using RSEM  
+
+## Transcript Quantification using RSEM  
 
 The Trinity toolkit comes with a script to facilitate running your
 choice of a number of tools to quantitate transcript abundance. I will
@@ -60,7 +64,7 @@ export PATH=$PATH:"/hb/groups/bernardi_lab/programs/miniconda3/envs/bowtie/bin":
 
  
 
-\#\#\#Alignment-based transcript abundance estimation  
+### Alignment-based transcript abundance estimation  
  
 
 Prep reference transcriptome for alignment:
@@ -97,7 +101,7 @@ contain an `RSEM.isoforms.results` file and an `RSEM.genes.results`
 file.  
  
 
-\#\#\#Build Transcript and Gene Expression Matrices  
+### Build Transcript and Gene Expression Matrices  
  
 
 First, create a text file containing a list of paths to each of the
@@ -180,7 +184,7 @@ matrix in most other analyses. For information on the importance of TMM
 Genome Biology 2010 and Dillies et al., Brief Bioinf, 2012.  
  
 
-\#\#\#Count Numbers of Expressed Transcripts or Genes
+### Count Numbers of Expressed Transcripts or Genes
 
 Presumably, a transcript is expressed if it has been assembled from
 RNA-Seq data, but as we know, transcription can be quite pervasive, and
@@ -375,7 +379,7 @@ This will output a directory containing a DE results table and
 MA/volcano plots for each pairwise comparison. These plots use a default
 FDR cutoff of 0.05.
 
-\#\#\#Extract and Cluster DE genes
+### Extract and Cluster DE genes
 
 An initial step in analyzing differential expression is to extract those
 transcripts that are most differentially expressed (most significant FDR
