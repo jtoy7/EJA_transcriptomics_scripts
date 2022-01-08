@@ -168,7 +168,7 @@ so:
 
  
 
-and once it completes, it will provide you with the following files:
+and once it completes, it will provide you with the following files (databases downloaded April 25, 2020):
 
     Trinotate.sqlite
     uniprot_sprot.pep
