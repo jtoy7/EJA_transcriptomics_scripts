@@ -34,7 +34,7 @@ done;
 
  
 
-## Run fastqc on both original and trimmo files  
+## Run fastqc (v0.11.7) on both original and trimmo files  
 Fast QC is a program that provides a simple way to do some quality
 control checks on raw sequence data. It provides a modular set of
 analyses that you can use to give a quick impression of whether you data
